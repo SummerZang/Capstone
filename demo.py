@@ -13,12 +13,12 @@ def cost(y):
 def profit(z):
     return benefit(z)-cost(z)
 
-print profit(5)
+print(profit(5))
 
 
 #2. 
 # Benefit and Cost function
-import pylab as pl
+import matplotlib.pylab as pl
 
 
 x=list(range(50,100))
@@ -44,8 +44,8 @@ z=list(map(cost,list(x)))
 p=list(set(y)-set(z))   
 
          
-pylab.ylim([-100,220])
-pylab.xlim([50,100])
+pl.ylim([-100,220])
+pl.xlim([50,100])
 pl.plot(x,y,'b')   
 pl.plot(x,z,'r')  
 pl.plot(x,p,'g')  
