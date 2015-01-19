@@ -1,4 +1,4 @@
-
+#1.
 
 # Benefit and Cost Function
 
@@ -14,3 +14,7 @@ def profit(z):
     return benefit(z)-cost(z)
 
 print profit(5)
+
+
+
+
